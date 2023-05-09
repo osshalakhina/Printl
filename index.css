@@ -1,0 +1,137 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 50px;
+}
+
+.images {
+  display: flex;
+  gap: 25px;
+}
+
+.image {
+  height: 400px;
+  margin-top: 20px;
+  border: 0.75px solid rgb(208, 208, 208);
+}
+
+.site {
+  height: 320px;
+  border: 0.75px solid rgb(208, 208, 208);
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: #24325b;
+  font-weight: bold;
+}
+
+p {
+  font-size: 15px;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+@media only screen and (max-width: 660px) {
+  body {
+    margin: 10px 10px;
+  }
+
+  .images {
+    gap: 15px;
+  }
+
+  .image {
+    height: 320px;
+    margin-top: 10px;
+  }
+
+  .site {
+    height: 250px;
+  }
+
+  p {
+    font-size: 15px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 464px) {
+  body {
+    margin: 10px 10px;
+  }
+
+  .images {
+    gap: 10px;
+  }
+
+  .image {
+    height: 280px;
+    margin-top: 10px;
+  }
+
+  .site {
+    height: 220px;
+  }
+
+  p {
+    font-size: 15px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 407px) {
+  body {
+    margin: 10px 10px;
+  }
+
+  .images {
+    gap: 10px;
+  }
+
+  .image {
+    height: 245px;
+    margin-top: 10px;
+  }
+
+  .site {
+    height: 190px;
+  }
+
+  p {
+    font-size: 15px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  body {
+    margin: 10px 10px;
+  }
+
+  .images {
+    gap: 10px;
+  }
+
+  .image {
+    height: 215px;
+    margin-top: 10px;
+  }
+
+  .site {
+    height: 170px;
+  }
+
+  p {
+    font-size: 15px;
+    margin: 10px;
+  }
+}
